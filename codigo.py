@@ -5,13 +5,13 @@ import time
 # Passo 1 : Abrir o sistema da empresa
     # Sistema : https://dlp.hashtagtreinamentos.com/python/intensivao/login
     # Abrir o Navegador
-pyautogui.press("win")
-pyautogui.write("Crhome")
+pyautogui.press("win") # Pressiona a tecla Windows do teclado
+pyautogui.write("Crhome") # Escreve a palavra 
 pyautogui.press("enter")
 
   # Escolher o usuario
 time.sleep(2) # Esperar 2 segundos
-pyautogui.click(x=789, y=597)
+pyautogui.click(x=789, y=597) # Seleciona posição na tela e clica com o mouse
 
 time.sleep(2) # Esperar 2 segundos
 pyautogui.click(x=237, y=61)
@@ -46,7 +46,7 @@ for linha in tabela.index:
     
     #codigo
     codigo = tabela.loc[linha, "codigo"]
-    pyautogui.write(str(codigo))
+    pyautogui.write(str(codigo)) # str transforma em string 
     pyautogui.press("tab")
 
     #marca
@@ -77,7 +77,7 @@ for linha in tabela.index:
     #obs
     obs = str(tabela.loc[linha, "obs"])
 
-    if obs != "nan":
+    if obs != "nan":  # nan Not a Number
         pyautogui.write(obs)
 
     pyautogui.press("tab")
