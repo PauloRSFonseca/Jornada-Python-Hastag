@@ -20,6 +20,7 @@ pyautogui.click(x=237, y=61)
 time.sleep(2) # Esperar 2 segundos
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.press("enter")
+time.sleep(2)
 
 
 # Passo 2 : Fazer login
