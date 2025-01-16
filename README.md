@@ -1,2 +1,2 @@
 #Jornada_Python_Hastag
-Joprnada Pyton Hastag Automação, 2025
+Jornada Pyton Hastag Automação, 2025
